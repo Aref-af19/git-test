@@ -9,7 +9,10 @@ print(a)
 def calculate(number):
     for num in number:
         if num % 2 ==0:
-            return even
+            return 'even'
         else:
-            return odd
-calculate(4)            
+            return 'odd'
+        
+calculate(4)
+
+
